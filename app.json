@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "template-tamagui-expo",
+    "slug": "template-tamagui-expo",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "plugins": ["expo-dev-client"]
+    }
+  }

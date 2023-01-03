@@ -1,24 +1,30 @@
 {
   "dependencies": {
+    "@tamagui/config-base": "^1.0.2",
+    "@tamagui/shorthands": "^1.0.2",
+    "@tamagui/theme-base": "^1.0.2",
     "expo": "^47.0.0",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "expo-dev-client": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-native": "0.70.5",
-    "react-native-web": "~0.18.7"
+    "react-native-web": "~0.18.7",
+    "tamagui": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
+    "@tamagui/babel-plugin": "^1.0.2",
     "@types/react": "~18.0.24",
     "@types/react-native": "~0.70.6",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "typescript": "^4.6.3"
   },
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "TAMAGUI_TARGET=native expo start",
+    "android": "TAMAGUI_TARGET=native expo start --android",
+    "ios": "TAMAGUI_TARGET=native expo start --ios"
   },
   "version": "1.0.0",
   "private": true,
-  "name": "testcrna"
+  "name": "template-tamagui-expo"
 }
