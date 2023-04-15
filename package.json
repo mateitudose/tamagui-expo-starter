@@ -1,16 +1,16 @@
 {
   "dependencies": {
-    "@tamagui/config": "^1.7.8",
-    "@tamagui/shorthands": "^1.7.8",
-    "@tamagui/themes": "^1.7.8",
+    "@tamagui/config": "^1.15.6",
+    "@tamagui/shorthands": "^1.15.6",
+    "@tamagui/themes": "^1.15.6",
     "burnt": "^0.10.0",
     "expo": "^48.0.9",
-    "expo-dev-client": "~2.1.6",
+    "expo-dev-client": "~2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-native": "0.71.4",
+    "react-native": "0.71.6",
     "react-native-web": "~0.18.10",
-    "tamagui": "^1.9.22"
+    "tamagui": "^1.15.6"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
